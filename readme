@@ -1,0 +1,32 @@
+# Caesar Cipher Encoder
+
+## Author
+Jeremiah E. Ochepo
+
+## Description
+This Python program encodes a given text file using the Caesar cipher. The user provides the file name and the shift value, and the program outputs the original and encoded messages.
+
+## How to Use
+1. Run the program.
+2. Enter the file name when prompted.
+3. Enter the shift value (number of positions to shift the alphabet).
+4. The program will display the original and encoded messages.
+
+## Example
+```
+Please enter the file name: example.txt
+Please enter the shift value? 3
+
+Original message: Hello, World!
+Encoded message: Khoor, Zruog!
+
+Each alphabet shifted: 3 times to the right
+```
+
+## Notes
+- The program preserves the case of the characters.
+- Only alphabet characters are shifted; non-alphabetic characters remain unchanged.
+
+---
+
+Feel free to customize the README based on additional features or specifics of your program.
